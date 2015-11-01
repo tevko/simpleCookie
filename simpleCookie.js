@@ -12,7 +12,7 @@
 
 ;(function() {
 	'use strict';
-	_smplCke: {
+	window._smplCke = {
         /**
          * returns true if a cookie exists
          * @param  {string}  name - the name of the cookie
