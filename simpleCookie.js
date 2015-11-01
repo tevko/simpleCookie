@@ -18,7 +18,7 @@
          * @param  {string}  name - the name of the cookie
          * @return {Boolean} - returns true if the cookie exists
          */
-        is(name) {
+        is: function(name) {
             return document.cookie.indexOf(name) > -1;
         },
         /**
@@ -26,8 +26,8 @@
          * @param  {string} name - the name of the cookie to be returned
          * @return {object} - a JS object representation of the cookie
          */
-        get(name) {
-            let jsonString = decodeURIComponent(document.cookie.split(name + '=')[1].split(';')[0]);
+        get: function(name) {
+            var jsonString = decodeURIComponent(document.cookie.split(name + '=')[1].split(';')[0]);
             return JSON.parse(jsonString);
         },
         /**
@@ -37,7 +37,7 @@
          * @param OPTIONAL {date string} expiration - a valid UTC date string "Thu, 18 Dec 2013 12:00:00 UTC" DEFAULT - Session
          * @param OPTIONAL {string} path - a URL path where the cookie should exist DEFAULT - '/'
          */
-        set(name, value, expiration, path) {
+        set: function(name, value, expiration, path) {
             if (typeof path === 'undefined') {
                 path = '/';
             }
@@ -54,7 +54,7 @@
          * deletes a cookie
          * @param  {string} name - the name of the cookie
          */
-        del(name) {
+        del: function(name) {
             document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
         }
     }
