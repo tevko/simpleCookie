@@ -1,3 +1,15 @@
+/* simpleCookie.js
+*
+* A small javascript utility to make handling cookies simple
+*
+* Author: Tim Evko
+* https://twitter.com/tevko
+* https://timevko.website
+* https://github.com/tevko/simpleCookie
+* License: MIT
+*
+*/
+
 ;(function() {
 	'use strict';
 	_smplCke: {
