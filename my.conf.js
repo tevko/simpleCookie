@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'simpleCookie.js','test/tescCookie.js'
+      'simpleCookie.js','test/testCookie.js'
     ],
 
 
