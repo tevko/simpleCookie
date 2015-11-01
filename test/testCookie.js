@@ -1,9 +1,9 @@
 describe('libraryExists', function() {
     it('Should exist', function() {
-        expect(typeof window._smplCke).toBe('object');
+        expect(typeof window).toBe('object');
     });
 });
-
+/*
 describe('setCookie', function() {
 	_smplCke.set('test', {'foo' : 'bar', 1 : true});
 
@@ -23,4 +23,4 @@ describe('deleteCookie', function() {
     it('Should not exist', function() {
         expect(typeof _smplCke.is('test')).toBe(false);
     });
-});
+});*/
