@@ -6,7 +6,7 @@ describe('libraryExists', function() {
 
 describe('setCookie', function() {
 	_smplCke.set('test', {'foo' : 'bar', 1 : true});
-
+	console.log(document.cookie);
     it('Should exist', function() {
         expect(_smplCke.is('test')).toBe(true);
     });
