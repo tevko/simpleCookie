@@ -6,6 +6,6 @@ describe('CRUDCookie', function() {
 		expect(_smplCke.is('test')).toBe(true);
 		expect(typeof _smplCke.get('test')).toBe('object');
 		_smplCke.del('test');
-		expect(typeof _smplCke.is('test')).toBe(false);
+		expect(_smplCke.is('test')).toBe(false);
     });
 });
