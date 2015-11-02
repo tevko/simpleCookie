@@ -2,6 +2,8 @@
 A small utility to make handling cookies simple
 -----------------------------------------------
 
+307 bytes minified + gzip
+
 ##Useage
 
 **After minifying/uglifying simpleCookie.js**
