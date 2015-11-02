@@ -22,7 +22,7 @@ If the value of the cookie is an object, an object will be returned. Otherwise, 
 
 ###Deleting a cookie
 
-`_smplCke.get('test')`
+`_smplCke.del('test')`
 
 ###Finding a cookie
 
