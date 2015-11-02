@@ -1,4 +1,4 @@
-# simpleCookie
+# simpleCookie [![buld status](https://travis-ci.org/tevko/simpleCookie.svg)](https://travis-ci.org/tevko/simpleCookie)
 A small utility to make handling cookies simple
 -----------------------------------------------
 
