@@ -2,7 +2,7 @@
 A small utility to make handling cookies simple
 -----------------------------------------------
 
-307 bytes minified + gzip
+307 bytes minified & gzipped
 
 ##Useage
 
