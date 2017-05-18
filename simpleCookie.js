@@ -19,7 +19,7 @@
          * @return {Boolean} - returns true if the cookie exists
          */
         is: function(name) {
-            return document.cookie.indexOf(name) > -1;
+            return document.cookie.indexOf(name + '=') > -1;
         },
         /**
          * returns the value of a cookie as an object
