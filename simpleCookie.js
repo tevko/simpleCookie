@@ -31,7 +31,7 @@
             try {
                 var jsonString = decodeURIComponent(document.cookie.split(name + '=')[1].split(';')[0]);
                 return JSON.parse(jsonString);
-            } catch {
+            } catch(e) {
                 return document.cookie.split(name + '=')[1].split(';')[0];
             }
         },
