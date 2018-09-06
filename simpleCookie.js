@@ -27,8 +27,13 @@
          * @return {object} - a JS object representation of the cookie
          */
         get: function(name) {
-            var jsonString = decodeURIComponent(document.cookie.split(name + '=')[1].split(';')[0]);
-            return JSON.parse(jsonString);
+            // if the cookie value is a normal string, just return it
+            try {
+                var jsonString = decodeURIComponent(document.cookie.split(name + '=')[1].split(';')[0]);
+                return JSON.parse(jsonString);
+            } catch {
+                return document.cookie.split(name + '=')[1].split(';')[0];
+            }
         },
         /**
          * sets a cookie
@@ -37,7 +42,7 @@
          * @param OPTIONAL {date string} expiration - a valid UTC date string "Thu, 18 Dec 2013 12:00:00 UTC" DEFAULT - Session
          * @param OPTIONAL {string} path - a URL path where the cookie should exist DEFAULT - '/'
          */
-        set: function(name, value, expiration, path) {
+        set: function(name, value, expiration, path, httpOnly) {
             if (typeof path === 'undefined') {
                 path = '/';
             }

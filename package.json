@@ -1,6 +1,6 @@
 {
   "name": "simplecookie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small javascript utility to make handling cookies simple",
   "main": "simpleCookie.js",
   "repository": {
