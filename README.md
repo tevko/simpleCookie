@@ -1,4 +1,4 @@
-# simpleCookie [![buld status](https://travis-ci.org/tevko/simpleCookie.svg)](https://travis-ci.org/tevko/simpleCookie) [![Rate on Openbase](https://badges.openbase.com/js/rating/simplecookie.svg)](https://openbase.com/js/simplecookie?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
+# simpleCookie [![buld status](https://travis-ci.org/tevko/simpleCookie.svg)](https://travis-ci.org/tevko/simpleCookie) [![Rate on Openbase](https://badges.openbase.com/js/rating/simplecookie.svg)](https://openbase.com/js/simplecookie?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge) [![kandi X-Ray](https://kandi.openweaver.com/badges/xray.svg)](https://kandi.openweaver.com/javascript/tevko/simpleCookie)
 A small utility to make handling cookies simple
 -----------------------------------------------
 
